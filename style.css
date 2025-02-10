@@ -1,0 +1,338 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+div.wrapper{
+    width: 100%;
+    margin: -75px auto;
+}
+body{
+        font-family: "Bebas Neue", serif;
+        color: #263849;
+}
+
+
+div.language{
+    display: inline-block;
+    border-left: 2px solid #41506b;
+    background-color: #90f6d7;
+    padding: 3px;
+    font-size: 10px;
+    width: 10%;
+    text-align: center;
+    transition: 0.3s;
+    
+       
+}
+
+div.language:hover{
+    background-color: #35bcbf;
+}
+
+div.pages{
+    margin: 150px auto;
+    margin-left: 200px;
+    background-color: #90f6d7;
+    width: 70%;
+    
+ 
+}
+
+img{
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    vertical-align: middle;
+
+    
+}
+
+h2{
+    margin-left: 4px;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+img.cross{
+    width: 10px;
+    height: 10px;
+    margin: 5px;
+    padding: 4px;
+   
+    transition: 0.5s;
+}
+
+img.cross:hover{
+    background-color: white;
+   
+
+}
+
+div.second{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+button{
+    background-color: #90f6d7;
+    padding: 8px;
+    width: 10%;
+    text-align: left;
+    border: 2px solid #90f6d7;
+    cursor: pointer;
+    position:absolute;
+    top: 36px;
+    left: 1121.5px;
+    transition: 0.5s;
+    font-family: "Bebas Neue", serif;
+    letter-spacing: 0.5px;
+    font-size: 15px;
+}
+
+button:hover{
+    background-color: #35bcbf;
+    border: 2px solid #35bcbf;
+    
+    
+}
+
+/* style for infos */
+
+div.html-info{
+    display: none;
+    margin: -150px auto;
+    margin-left: 200px;
+    background-color: #35bcbf;
+    width: 68.6%;
+    height: 575px;
+    text-align: center;
+    padding: 10px;
+    border: 2px solid #41506b;
+   
+    
+
+
+}
+
+iframe{
+    border: 2px solid #41506b;
+    border-radius: 10px 10px 10px 10px;
+}
+
+div.html-info h2{
+    font-size: 25px;
+ 
+}
+
+div.css-info{
+    display: none;
+    margin: -150px auto;
+    margin-left: 200px;
+    background-color: #35bcbf;
+    width: 68.6%;
+    height: 550px;
+    text-align: center;
+    padding: 10px;
+    border: 2px solid #41506b;
+    
+
+
+}
+
+div.css-info h2{
+    font-size: 25px;
+ 
+}
+
+div.text{
+    margin: 20px auto;
+}
+
+div.text p{
+    font-size: 18px;
+    letter-spacing: 0.5px;
+}
+
+div.text h2{
+    border: 2px solid #41506b;
+    width: 25%;
+    margin: 20px auto;
+    letter-spacing: 1px;
+    background-color: #90f6d7;
+    border-radius: 10px 10px 10px 10px;
+}
+
+div.js-info{
+    display: none;
+    margin: -150px auto;
+    margin-left: 200px;
+    background-color: #35bcbf;
+    width: 68.6%;
+    height: 550px;
+    text-align: center;
+    padding: 10px;
+    border: 2px solid #41506b;
+    
+
+
+}
+
+div.js-info h2{
+    font-size: 25px;
+ 
+}
+
+
+div.php-info{
+    display: none;
+    margin: -150px auto;
+    margin-left: 200px;
+    background-color: #35bcbf;
+    width: 68.6%;
+    height: 550px;
+    text-align: center;
+    padding: 10px;
+    border: 2px solid #41506b;
+    
+
+
+}
+
+div.php-info h2{
+    font-size: 25px;
+ 
+}
+
+
+div.python-info{
+    display: none;
+    margin: -150px auto;
+    margin-left: 200px;
+    background-color: #35bcbf;
+    width: 68.6%;
+    height: 550px;
+    text-align: center;
+    padding: 10px;
+    border: 2px solid #41506b;
+    
+
+
+}
+
+div.python-info h2{
+    font-size: 25px;
+ 
+}
+
+
+div.mysql-info{
+    display: none;
+    margin: -150px auto;
+    margin-left: 200px;
+    background-color: #35bcbf;
+    width: 68.6%;
+    height: 550px;
+    text-align: center;
+    padding: 10px;
+    border: 2px solid #41506b;
+    
+
+
+}
+
+div.mysql-info h2{
+    font-size: 25px;
+ 
+}
+
+
+
+
+/* drawer */
+
+
+body{
+    font-family:"Bebas Neue", serif;;
+}
+
+ div.drawer h2{
+    padding: 2px;
+    color: #263849;
+    background-color: #90f6d7;
+    text-align: center;
+    width: 35%;
+    border-radius: 10px 10px 10px 10px;
+    
+}
+
+
+
+
+div.drawer{
+    width: 40%;
+    position: fixed;
+    right: 715px;
+    top: 250px;
+   
+
+}
+
+div.header{
+   
+    width: 40%;
+    
+  
+}
+
+div.header h2{
+    width: 90%;
+    height: 65px;
+    transition: 0.5s;
+    border: 2px solid #263849;
+}
+
+
+
+
+ul {
+    padding-left: 30px; 
+    margin: 0px;
+    display: none;
+    transition: opacity 0.5s ease, visibility 0.5s ease;
+    opacity: 0;
+    visibility: hidden; 
+  }
+li{
+    margin: 20px;
+    text-align: left;
+}
+
+a{
+    font-size: 25px;
+    width: 50%;
+    position: absolute;
+    left: -25px;
+    color:#263849
+    
+}
+
+div.header img{
+    width: 25px;
+    height: 25px;
+    transition: 0.5s;
+    rotate: 0deg;
+}
+
+
+
+
+
+
+
+
+
+
+
+
